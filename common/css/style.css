@@ -202,7 +202,7 @@ select::-ms-expand {
 
 .wrapper {
   width: 100%;
-  background-color: var(--DFC-BLUE);
+  background-color: #ccc;
 }
 
 @media screen and (max-width: 767px) {
@@ -303,6 +303,7 @@ header .cta_head_bt img {
 
 .movie > * {
   width: 100%;
+  height: auto;
   aspect-ratio: 660/440;
 }
 
@@ -315,11 +316,11 @@ header .cta_head_bt img {
 }
 
 .pic23 .movie {
-  bottom: 18%;
+  bottom: 11%;
 }
 
 .pic28 .movie {
-  bottom: 10%;
+  bottom: 7%;
 }
 
 /* =========================================

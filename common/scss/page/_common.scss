@@ -23,7 +23,7 @@
 }
 .wrapper {
   width: 100%;
-  background-color: var(--DFC-BLUE);
+  background-color: #ccc;
 }
 @media screen and (max-width:767px) {
   #container > article  {
@@ -113,5 +113,6 @@ header .cta_head_bt img{
 }
 .movie > * {
   width: 100%;
+  height: auto;
   aspect-ratio: 660 / 440;
 }

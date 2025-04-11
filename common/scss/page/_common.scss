@@ -117,3 +117,21 @@ header .cta_head_bt img{
   height: auto;
   aspect-ratio: 660 / 440;
 }
+// 下部追従
+.foot-fix {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #E6F2FC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.foot-fix__contents {
+  max-width: 767px;
+  width: 100%;
+}
+.foot-fix__btn {
+  width: 90%;
+}

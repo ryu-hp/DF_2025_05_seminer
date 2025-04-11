@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /lp/
+RewriteCond %{REQUEST_URI} !^/lp/seminar202306_1/ [NC]
+RewriteCond %{REQUEST_URI} !^/lp/seminar202502_1 [NC]
+RewriteCond %{REQUEST_URI} !^/lp/seminar202502_2 [NC]
+RewriteCond %{REQUEST_URI} !^/lp/seminar202505_1 [NC]
+RewriteCond %{REQUEST_URI} !^/lp/web-d/download/dentalfitness.pdf [NC]
+RewriteRule ^(.*)$ https://dental-fitness.co.jp/lp/seminar202306_1/ [R=301,L]

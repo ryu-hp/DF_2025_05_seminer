@@ -70,13 +70,13 @@ $(function(){
 
 	switch(p) {
 		case 'fb':
-			url = 'https://dental-fitness.jp/p/r/6KeouTyv?ref=di';
+			url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=di';
 			break;
 			case 'rl':
-			url = 'https://dental-fitness.jp/p/r/6KeouTyv?ref=we';
+			url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=we';
 			break;
 			case 'ptr':
-				url = 'https://dental-fitness.jp/p/r/6KeouTyv?ref=re';
+				url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=re';
 				break;
 			case 'soe':
 				url = 'https://dental-fitness.jp/p/r/Az0nsEal';
@@ -85,7 +85,7 @@ $(function(){
 				url = 'https://dental-fitness.jp/p/r/diiWZDOo';
 				break;
 			default:
-				url = 'https://dental-fitness.jp/p/r/6KeouTyv?ref=hp'; // デフォルトのURLを設定します
+				url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=hp'; // デフォルトのURLを設定します
 				break;
 			// case 'fb':
 			// 	url = 'https://dental-fitness.jp/p/r/ta0GbQgT?ref=di';

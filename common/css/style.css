@@ -310,6 +310,10 @@ header .cta_head_bt img {
 /* =========================================
 メインCSS
 ========================================= */
+.pic17 {
+  background-color: #fff;
+}
+
 .pic17 .pic {
   max-width: 80%;
   margin-right: auto;

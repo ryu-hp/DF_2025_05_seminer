@@ -192,6 +192,17 @@ select::-ms-expand {
   }
 }
 
+#contaier > article {
+  max-width: 767px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: var(--DFC-BROWN);
+}
+
 header .cta_head_bt {
   position: fixed;
   top: 20px;

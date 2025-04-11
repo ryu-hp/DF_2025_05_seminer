@@ -14,6 +14,16 @@
     display: none;
   }
 }
+// 全体レイアウト
+#contaier > article  {
+  max-width: 767px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.wrapper {
+  width: 100%;
+  background-color: var(--DFC-BROWN);
+}
 // header
 header .cta_head_bt{
 	position: fixed;

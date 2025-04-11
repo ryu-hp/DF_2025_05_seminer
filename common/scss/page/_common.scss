@@ -1,0 +1,127 @@
+@use "../global" as *;
+/*=======================================
+  共　通
+=======================================*/
+// レスポンシブ
+.sp {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}
+.pc {
+  @include mq(md) {
+    display: none;
+  }
+}
+// header
+header .cta_head_bt{
+	position: fixed;
+	top:20px;
+	right:25px;
+	z-index: 500;
+}
+header .cta_head_bt img{
+	width: 240px;
+	height: auto;
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+// 見出し背景
+.head_bg {
+  background-image: url(../img/title-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.head_bg-2 {
+  background-image: url(../img/title-bg-2.webp);
+}
+.head_bg::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: calc(147 / 1200 * 100%);
+}
+.head_bg > p {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color: $color-white;
+  font-weight: $bold;
+  text-align: center;
+  width: 100%;
+  font-family: "Yu Mincho", "游明朝", serif;
+  font-size: calc(40 / 1200 * 100vw);
+}
+@media screen and (max-width:767px) {
+  .head_bg::before {
+    padding-top: calc(132 / 750 * 100%);
+  }
+  .head_bg > p {
+    font-size: calc(14 / 375 * 100vw);
+  }
+}
+// 画像設定
+.pic {
+  max-width: 864px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.pic.cta_pic {
+  max-width: 100%;
+}
+.pic.pic-100 {
+  max-width: 100%;
+}
+.pic img {
+  width: 100%;
+}
+.pic-line {
+  margin-top: 24px;
+}
+@media screen and (max-width:767px) {
+  .pic {
+    max-width: 634px;
+  }
+  .pic-line {
+    margin-top: 24px;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+}
+// 背景
+.bg_gray {
+  background-color: #e4e6ef;
+}
+.bg_light_gray {
+  background-color: #eef2fc;
+}
+.bg_gradation_purple {
+  background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
+  background: linear-gradient(101deg, rgba(225, 230, 249, 0.33) 0%, rgba(240, 227, 253, 0.33) 100%);
+}
+.bg_purple_image {
+  background-image: url(../img/bg-2.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+// カラー
+.text-color-blue {
+  color: #4e73ee;
+}
+// フォントスタイル
+.f-yu_mincho {
+  font-family: "Yu Mincho", "游明朝", serif;
+}
+// 非表示設定
+.display-none {
+  display: none !important;
+}
+// 余白
+.m-b-20 {
+  margin-bottom: 20px;
+}

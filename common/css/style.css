@@ -200,7 +200,7 @@ select::-ms-expand {
 
 .wrapper {
   width: 100%;
-  background-color: var(--DFC-BROWN);
+  background-color: var(--DFC-BLUE);
 }
 
 header .cta_head_bt {
@@ -217,47 +217,6 @@ header .cta_head_bt img {
           filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.head_bg {
-  background-image: url(../img/title-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.head_bg-2 {
-  background-image: url(../img/title-bg-2.webp);
-}
-
-.head_bg::before {
-  content: "";
-  display: block;
-  width: 100%;
-  padding-top: 12.25%;
-}
-
-.head_bg > p {
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  position: absolute;
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  width: 100%;
-  font-family: "Yu Mincho", "游明朝", serif;
-  font-size: 3.3333333333vw;
-}
-
-@media screen and (max-width: 767px) {
-  .head_bg::before {
-    padding-top: 17.6%;
-  }
-  .head_bg > p {
-    font-size: 3.7333333333vw;
-  }
-}
 .pic {
   max-width: 864px;
   margin-right: auto;

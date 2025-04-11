@@ -192,7 +192,7 @@ select::-ms-expand {
   }
 }
 
-#container > article {
+#contaier > article {
   max-width: 767px;
   margin-right: auto;
   margin-left: auto;
@@ -264,14 +264,6 @@ header .cta_head_bt img {
   margin-left: auto;
 }
 
-.pic.cta_pic {
-  max-width: 100%;
-}
-
-.pic.pic-100 {
-  max-width: 100%;
-}
-
 .pic img {
   width: 100%;
 }
@@ -331,6 +323,17 @@ header .cta_head_bt img {
   z-index: 1;
 }
 
+.movie {
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.movie > * {
+  width: 100%;
+  aspect-ratio: 560/315;
+}
+
 /* =========================================
 メインCSS
 ========================================= */
@@ -338,37 +341,24 @@ header .cta_head_bt img {
 CTA
 ========================================= */
 .cta {
-  width: 100vw;
-  max-width: 100vw;
-  margin-left: calc(50% - 50vw);
-  position: relative;
-}
-
-.cta_pic {
   position: relative;
 }
 
 .cta_btn {
   position: absolute;
-  left: 57.75vw;
-  bottom: 23.9608801956%;
-  width: 23.5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 10%;
+  width: 75%;
 }
 
-.cta_head_bt {
-  max-width: 320px;
+.pic32 .cta_btn {
+  bottom: auto;
+  top: 35%;
+  width: 85%;
 }
 
-@media screen and (max-width: 767px) {
-  .cta_btn {
-    left: 12.1333333333vw;
-    bottom: 10.4347826087%;
-    width: 42.9333333333%;
-  }
-  .cta_head_bt {
-    max-width: 130px;
-  }
-}
 /* -------------------------
 スマホ表示
 ------------------------- */

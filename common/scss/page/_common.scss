@@ -79,12 +79,6 @@ header .cta_head_bt img{
   margin-right:auto;
   margin-left:auto;
 }
-.pic.cta_pic {
-  max-width: 100%;
-}
-.pic.pic-100 {
-  max-width: 100%;
-}
 .pic img {
   width: 100%;
 }
@@ -137,4 +131,14 @@ header .cta_head_bt img{
   transform: translateX(-50%);
   bottom: 22%;
   z-index: 1;
+}
+// 動画
+.movie {
+  max-width: 80%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.movie > * {
+  width: 100%;
+  aspect-ratio: 560 / 315;
 }

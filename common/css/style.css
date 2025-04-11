@@ -324,19 +324,37 @@ header .cta_head_bt img {
 }
 
 .movie {
-  max-width: 80%;
+  max-width: 90%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .movie > * {
   width: 100%;
-  aspect-ratio: 560/315;
+  aspect-ratio: 660/440;
 }
 
 /* =========================================
 メインCSS
 ========================================= */
+.pic23,
+.pic28 {
+  position: relative;
+}
+
+.pic23 .movie {
+  bottom: 18%;
+}
+
+.pic28 .movie {
+  bottom: 10%;
+}
+
 /* =========================================
 CTA
 ========================================= */

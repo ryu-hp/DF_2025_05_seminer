@@ -25,7 +25,7 @@ a:hover {
 
 .inner {
   width: 100%;
-  max-width: calc(1000px + 3.125rem);
+  max-width: calc(767px + 3.125rem);
   padding-right: 1.5625rem;
   padding-left: 1.5625rem;
   margin-right: auto;
@@ -199,6 +199,7 @@ select::-ms-expand {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   background-color: #fff;
+  padding-bottom: calc(124 / 767 * 100%);;
 }
 
 .wrapper {
@@ -306,6 +307,22 @@ header .cta_head_bt img {
   width: 100%;
   height: auto;
   aspect-ratio: 660/440;
+}
+
+.foot-fix {
+  width: 100%;
+  max-width: 767px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #E6F2FC;
+  z-index: 1024;
+}
+
+.foot-fix__btn {
+  width: 100%;
 }
 
 /* =========================================

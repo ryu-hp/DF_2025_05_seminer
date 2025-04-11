@@ -16,11 +16,12 @@
 }
 // 全体レイアウト
 #container > article  {
-  max-width: 767px;
+  max-width: $inner;
   margin-right:auto;
   margin-left:auto;
   box-shadow: 0 0 8px rgba($color: #000, $alpha: 0.5);
   background-color: #fff;
+  padding-bottom: unquote("calc(124 / 767 * 100%);")
 }
 .wrapper {
   width: 100%;
@@ -120,18 +121,14 @@ header .cta_head_bt img{
 // 下部追従
 .foot-fix {
   width: 100%;
+  max-width: $inner;
   position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   background-color: #E6F2FC;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.foot-fix__contents {
-  max-width: 767px;
-  width: 100%;
+  z-index: 1024;
 }
 .foot-fix__btn {
-  width: 90%;
+  width: 100%;
 }

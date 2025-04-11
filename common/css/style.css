@@ -196,6 +196,8 @@ select::-ms-expand {
   max-width: 767px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .wrapper {
@@ -203,6 +205,12 @@ select::-ms-expand {
   background-color: var(--DFC-BLUE);
 }
 
+@media screen and (max-width: 767px) {
+  #container > article {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
 header .cta_head_bt {
   position: fixed;
   top: 20px;

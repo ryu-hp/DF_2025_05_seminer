@@ -19,10 +19,16 @@
   max-width: 767px;
   margin-right:auto;
   margin-left:auto;
+  box-shadow: 0 0 8px rgba($color: #000, $alpha: 0.5);
 }
 .wrapper {
   width: 100%;
   background-color: var(--DFC-BLUE);
+}
+@media screen and (max-width:767px) {
+  #container > article  {
+    box-shadow: none;
+  }
 }
 // header
 header .cta_head_bt{

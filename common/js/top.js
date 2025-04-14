@@ -87,24 +87,6 @@ $(function(){
 			default:
 				url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=hp'; // デフォルトのURLを設定します
 				break;
-			// case 'fb':
-			// 	url = 'https://dental-fitness.jp/p/r/ta0GbQgT?ref=di';
-			// 	break;
-			// case 'rl':
-			// 	url = 'https://dental-fitness.jp/p/r/ta0GbQgT?ref=mlp';
-			// 	break;
-			// case 'ptr':
-			// 	url = 'https://dental-fitness.jp/p/r/ta0GbQgT?ref=re';
-			// 	break;
-			// case 'soe':
-			// 	url = 'https://dental-fitness.jp/p/r/Az0nsEal';
-			// 	break;
-			// case 'sh':
-			// 	url = 'https://dental-fitness.jp/p/r/diiWZDOo';
-			// 	break;
-			// default:
-			// 	url = 'https://dental-fitness.jp/p/r/ta0GbQgT?ref=we'; // デフォルトのURLを設定します
-			// 	break;
 	}
 
 	$('.paramLink').attr('href', url);

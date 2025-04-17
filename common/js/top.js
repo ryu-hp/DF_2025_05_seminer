@@ -78,11 +78,11 @@ $(function(){
 			case 'ptr':
 				url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=re';
 				break;
-			case 'soe':
-				url = 'https://dental-fitness.jp/p/r/Az0nsEal';
+			case 'ren':
+				url = 'https://dental-fitness.jp/p/r/zTA1tkcK';
 				break;
-			case 'sh':
-				url = 'https://dental-fitness.jp/p/r/diiWZDOo';
+			case '1':
+				url = 'https://dental-fitness.jp/p/r/VpELxM9J';
 				break;
 			default:
 				url = 'https://dental-fitness.jp/p/r/zjJpfgSE?ref=hp'; // デフォルトのURLを設定します
